@@ -1,4 +1,4 @@
-/* Add the logo styling */
+
 #logo {
     max-width: 100px;
     margin-right: 10px;
@@ -57,7 +57,7 @@ main {
 }
 
 .input-group {
-    flex-basis: 48%; /* Adjust the width of the input groups as needed */
+    flex-basis: 48%; 
 }
 
 .checkbox-group {
@@ -66,7 +66,7 @@ main {
 
 button {
     padding: 10px;
-    background-color: #3498db; /* Light blue button background color */
+    background-color: #3498db; 
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -74,12 +74,12 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9; /* Slightly darker blue on hover */
+    background-color: #2980b9; 
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #3498db; /* Light blue footer background color */
+    background-color: #3498db; 
     color: #fff;
 }
