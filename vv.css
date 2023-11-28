@@ -1,0 +1,85 @@
+/* Add the logo styling */
+#logo {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+#logo img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1; /* Light blue background color */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: #3498db; /* Light blue header background color */
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; /* White background color for main content */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group {
+    flex-basis: 48%; /* Adjust the width of the input groups as needed */
+}
+
+.checkbox-group {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db; /* Light blue button background color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* Slightly darker blue on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3498db; /* Light blue footer background color */
+    color: #fff;
+}
