@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Business Idea</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+</head>
+<body>
+    <div class="main-container">
+        <div class="interaction-container">
+            <nav class="navbar navbar-expand-lg mb-4">
+                <div class="container">
+                    <a class="navbar-brand" href="/" style="color: var(--text-color);">Venture Vulture</a>
+                </div>
+            </nav>
+
+            <h1 class="text-center mb-4">Your Custom Business Idea</h1>
+            <div class="card p-4 mb-4">
+                <div class="card-body" style="white-space: pre-wrap;">{{ idea|safe }}</div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="/" class="btn btn-primary btn-lg">Generate Another Idea</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>

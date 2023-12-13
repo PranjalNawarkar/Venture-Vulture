@@ -1,0 +1,73 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+/* General Body Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--bs-black); /* Using the black color from custom.css */
+    color: white; /* White text for contrast */
+    line-height: 1.6;
+}
+
+/* Container for Centering Content */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--bs-blue); /* Blue headers */
+}
+
+/* Form Styling */
+form {
+    background: #1c1c1c; /* Slightly lighter black for form background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
+
+/* Form Elements */
+select, input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #282828;
+    color: white;
+}
+
+/* Form Input Submit Button - Leverage Bootstrap's Custom Button Class */
+input[type=submit] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* Links */
+a {
+    color: var(--bs-blue);
+}
+
+a:hover {
+    text-decoration: none;
+    color: darken(var(--bs-blue), 10%);
+}
+
+/* Customizing Bootstrap Components */
+.navbar-custom {
+    background-color: var(--bs-blue);
+}
