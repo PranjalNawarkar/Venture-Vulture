@@ -1,7 +1,7 @@
-from flask import Flask
-from .routes import main  # Ensure routes are imported correctly
+from flask import Flask   # We have created blueprints of each component and the used flask
+from .routes import main  #This ensures that the routes are imported correctly
 
-def create_app():
+def create_app():        
     app = Flask(__name__)
     app.config.from_object('config.Config')
 
